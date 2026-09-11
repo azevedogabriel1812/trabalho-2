@@ -4,17 +4,19 @@
    box-sizing: border-box;
 }
 
-main {
+main , div,a,footer {
    border: 2px solid black;
-   width: 500px;
-   margin-inline: auto;
-   
+ 
 }
 
 a {
-   border: 1px solid black;
-   height: 300px;
+   padding: 10px 15px;
+   display: inline-block;
+}
+main{
    width: 400px;
+   margin-inline: auto;
+   margin-top: 10px;
 }
 
 p {
@@ -36,6 +38,7 @@ h1 {
    border: 1px solid black;
    width: 300px;
    height: 300px;
+   
 
 }
 
@@ -48,10 +51,10 @@ footer {
 div {
 
    border: 1px solid black;
-   display: inline;
-   height: 300px;
-   width: 300px;
-   padding: 10px;
+   display: inline-block;
+   width: 90px;
+   height: 90px;
+   margin-left: -20px;
    
    
 }
